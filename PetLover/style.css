@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+.contact__details-header{
+    /* border: 2px solid red; */
+    height: 34px;
+    background: rgb(114, 210, 114);
+}
+.contact__details-nav1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-counter{
+    display: flex;
+    position: relative;
+    top: -8px;
+    left:60px;
+    list-style: none;
+    padding: 0;
+}
+
+.social-links{
+    display: flex;
+    position: relative;
+    top: -8px;
+    right:36px;
+    list-style: none;
+    padding: 0;
+}
+.opt{
+    margin:0 8px; 
+    font-size: 16px;
+    
+}
+.opt a,.social-link a{
+    text-decoration: none;
+    color: white;
+}
+.opt span{
+    color: white;
+   
+}
+
+.social-link{
+    margin:0 16px;
+    font-size: 16px;
+}
+
+.contact__details-nav2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    height: 80px;
+}
+.title{
+    margin-left: 35px;
+    
+}
+.title h1{
+    font-size: 40px;
+    margin-top: 2px;
+    
+}
+.title h1 span{
+    color: #ED6436;
+}
+
+.basic__details{
+    display: flex;
+    margin-right:35px ;
+   
+}
+.basic__detail{
+    margin-top: 2px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.basic__detail h6{
+    font-size: 16px;
+    margin: 0;
+    color: #181818;
+}
+.basic__detail p{
+    color: #777777;
+}
