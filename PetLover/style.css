@@ -273,19 +273,19 @@ body{
     background:#f54e16;
 }
 .service__container{
-    /* border: 2px solid red; */
     background-color: #F2F2F4;
     margin-top: 72px;
 }
 .container__headings{
     text-align: center;
-    /* margin-top: 72px; */
+    position: relative;
+    top: 106px;
 }
 .container__headings h3{
     font-size: 1.5rem;
     color: #65C178;
     line-height: 0.1;
-    margin-top: 12px;
+
 }
 .container__headings h1{
     font-size: 3.5rem;
@@ -299,18 +299,16 @@ body{
     display: flex;
     justify-content: center;
     flex-flow: wrap;
-    /* text-align: center; */
-    /* flex-wrap: wrap; */
+    margin-top: 148px;
+    
 }
 
 
 .service__container-item{
-    /* border: 2px solid black; */
-    /* display: inline-block; */
+    
     width: 21%;
     height: 345px;
     margin:16px 30px ;
-    /* align-self: center; */
     text-align: center;
     padding: 15px;
     background-color: #fff;
