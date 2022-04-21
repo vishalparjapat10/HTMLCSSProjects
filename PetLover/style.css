@@ -272,3 +272,65 @@ body{
 .about__btn:hover{
     background:#f54e16;
 }
+.service__container{
+    /* border: 2px solid red; */
+    background-color: #F2F2F4;
+    margin-top: 72px;
+}
+.container__headings{
+    text-align: center;
+    /* margin-top: 72px; */
+}
+.container__headings h3{
+    font-size: 1.5rem;
+    color: #65C178;
+    line-height: 0.1;
+    margin-top: 12px;
+}
+.container__headings h1{
+    font-size: 3.5rem;
+    color:#181818;
+}
+.container__headings h1 span{
+    color: #ED6436;
+}
+.service__container-items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    /* text-align: center; */
+    /* flex-wrap: wrap; */
+}
+
+
+.service__container-item{
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    width: 21%;
+    height: 325px;
+    margin:16px 30px ;
+    /* align-self: center; */
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+}
+.service__icon{
+    font-size: 4.5rem;
+    color: #65C178;
+
+}
+.service__desc{
+    color: #777777;
+}
+.service__link{
+    font-size: 1rem;
+}
+.service__link a{
+    text-decoration: none;
+    color: #ED6436;
+}
+.service__link a:hover{
+    text-decoration:underline;
+    color: #c53f12;
+}
