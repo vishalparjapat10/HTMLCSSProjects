@@ -406,7 +406,6 @@ body{
 }
 
 .price__container{
-    border: 2px solid red;
     background-color: #F2F2F4;
     margin-top: 72px;
     height: 900px;
@@ -432,13 +431,11 @@ body{
 .prices{
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid black;
     margin-top: 200px;
     height: 500px;
     
 }
 .price{
-    /* border: 2px solid red; */
     width: 22%;
     background-color: white;
 }
@@ -492,7 +489,7 @@ body{
 
 .price__btn{
     position: relative;
-    top: 207px;
+    top: -14px;
     width:100%;
     border: none;
     background-color: #ED6436;
@@ -505,13 +502,31 @@ body{
 .price__btn:hover{
     background-color: #c53f12;
 }
-/* .main__heading{
-    background-image: url('./images/carousel-2.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
+.price__features ul{
+    position: relative;
+    right: 40px;
+    bottom: 16px;
+}
+.price__features ul li{
+    border-bottom:1px solid rgb(119, 119, 119,0.5);
+    list-style: none;
+    width: 104%;
     text-align: center;
-    padding: 36px;
-    height: 50rem;
-    width: 95.2%;
-} */
+    padding: 14px;
+}
+.price__features ul li span{
+    color: #777777;
+}
+#no__border{
+    border-bottom: none;
+}
+.fa-check,.fa-xmark{
+    margin-right: 10px;
+}
+.fa-check{
+    color: #65C178;
+}
+
+.fa-xmark{
+    color: #dc3545;
+}
