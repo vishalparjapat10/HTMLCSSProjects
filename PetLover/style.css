@@ -530,3 +530,55 @@ body{
 .fa-xmark{
     color: #dc3545;
 }
+
+.team__members-container{
+    height: 700px;
+}
+.team__member-headings{
+    text-align: center;
+    margin-top: 78px;
+}
+.team__member-headings h3{
+    font-size: 1.5rem;
+    color: #65C178;
+}
+.team__member-headings h1{
+    font-size: 3.5rem;
+    color:#ED6436;
+}
+.team__member-headings h1 span{
+    color: #181818;
+}
+.team__members{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.team__member{
+    width: 16%;
+    height: 388px;
+    margin-right: 26px;
+    background-color: #F2F2F4;
+}
+.team__member-image img{
+    width: 100%;
+}
+.team__member-intro{
+    text-align: center;
+    vertical-align: middle;
+   
+}
+.team__member-intro h4{
+    font-size: 1.25rem;
+    color: #181818;
+    margin-bottom: 0;
+    font-weight: 540;
+}
+.team__member-intro h5{
+    font-size: 1rem;
+    color: #777777;
+    margin-top: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
