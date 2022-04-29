@@ -582,3 +582,79 @@ body{
     font-style: italic;
     font-weight: 400;
 }
+
+.client__says-container{
+    margin-top: -64px;
+    height: 600px;
+    background-color: #F2F2F4;
+}
+
+.client__says-headings{
+    text-align: center;
+    margin-top: 92px;
+}
+.client__says-headings h3{
+    font-size: 1.5rem;
+    color: #65C178;
+}
+.client__says-headings h1{
+    font-size: 3.5rem;
+    color:#ED6436;
+    margin-top: 0;
+}
+.client__says-headings h1 span{
+    
+    color: #181818;
+}
+
+.client__says-items{
+    display: flex;
+    justify-content: center;
+    margin-left: 82px;
+    margin-top: 48px;
+}
+.client{
+    /* border: 1px solid black; */
+    width: 24%;
+    margin-right: 32px;
+    
+    height: 196px;
+    background-color: #fff;
+}
+
+.client__image{
+    /* border: 1px solid blue; */
+    display: inline-block;
+    
+}
+.client__image img{
+    width: 82%;
+}
+.client__intro{
+    /* border: 1px solid blue; */
+    position: relative;
+    display: inline-block;
+    height: 81px;
+    top: -6px;
+    left:-11px
+}
+.client__intro h3{
+    color: #181818;
+    font-size: 1.25rem;
+    font-weight: 510;
+}
+
+.client__intro h4{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    color: #777777;
+}
+
+.client__desc{
+    text-align: left;
+    font-size: 1rem;
+    padding-left: 18px;
+    margin-top: 25px;
+    color: #777777;
+}
