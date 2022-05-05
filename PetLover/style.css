@@ -5,7 +5,6 @@ body{
     font-family: "Nunito Sans", sans-serif;
 }
 .contact__details-header{
-    /* border: 2px solid red; */
     height: 34px;
     background: rgb(114, 210, 114);
 }
@@ -89,7 +88,6 @@ body{
     color: #777777;
 }
 .main__header{
-    /* border:1px solid red ; */
     margin-top: 85px;
 }
 
@@ -134,7 +132,6 @@ body{
 }
 
 .main__heading{
-    /* border: 1px solid red; */
     background-image: url('./images/carousel-2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -188,8 +185,6 @@ body{
 .about{
     display: flex;
     margin-top: 76px;
-    /* position: relative; */
-    /* justify-content: space-evenly; */
 }
 
 .about__info{
@@ -198,13 +193,11 @@ body{
     text-align: left;
     left: 10%;
     height: 31rem;
-    /* border: 2px solid red; */
 }
 
 .about__subheading{
     color: #65C178;
     font-size: 1.5rem;
-    /* line-height: 1.2; */
     margin-bottom: -18px;
 }
 
@@ -406,7 +399,7 @@ body{
 .price__container{
     background-color: #F2F2F4;
     margin-top: 72px;
-    height: 900px;
+    height: 844px;
 }
 .price__container-headings{
     text-align: center;
@@ -429,7 +422,7 @@ body{
 .prices{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 200px;
+    margin-top: 144px;
     height: 500px;
     
 }
@@ -530,7 +523,7 @@ body{
 }
 
 .team__members-container{
-    height: 700px;
+    height: 690px;
 }
 .team__member-headings{
     text-align: center;
@@ -589,7 +582,6 @@ body{
 
 .client__says-headings{
     text-align: center;
-    /* margin-top: 10px; */
     top: 102px;
     position: relative;
 }
@@ -614,7 +606,6 @@ body{
     margin-top: 148px;
 }
 .client{
-    /* border: 1px solid black; */
     width: 24%;
     margin-right: 32px;
     
@@ -623,15 +614,12 @@ body{
 }
 
 .client__image{
-    /* border: 1px solid blue; */
     display: inline-block;
-    
 }
 .client__image img{
     width: 82%;
 }
 .client__intro{
-    /* border: 1px solid blue; */
     position: relative;
     display: inline-block;
     height: 81px;
@@ -659,13 +647,11 @@ body{
     color: #777777;
 }
 .updates__container{
-    /* border: 1px solid red; */
     height: 800px;
     
 }
 .updates__headings{
     text-align: center;
-    /* margin-top: 10px; */
     top: 70px;
     position: relative;
 }
@@ -693,7 +679,6 @@ body{
 .updates__item{
     width: 23%;
     height: 475px;
-    /* border: 1px solid red; */
     background:#F2F2F4;
     margin-right: 30px;
 }
@@ -746,7 +731,6 @@ body{
     text-decoration:underline ;
 }
 .footer__container{
-    /* border: 1px solid red; */
     height: 400px;
     background: #181818;
     margin-top: -45px;
@@ -761,7 +745,6 @@ body{
 }
 
 .footer__item{
-    /* border:  1px solid red; */
     width: 50%;
     height: 350px;
 }
@@ -849,7 +832,7 @@ body{
     margin-top: 24px;
     margin-left: 42px;
 }
-#name,#email{
+#Name,#Email{
     width: 78%;
     height: 33px;
     border-radius: 0.25rem;
@@ -876,7 +859,6 @@ body{
     background: #111111;
 }
 .content1{
-    /* border: 1px solid red; */
     margin-left: 56px;
     color: #fff;
 }
@@ -897,7 +879,6 @@ body{
     text-decoration: underline;
 }
 .content2{
-    /* border:1px solid red; */
     margin-right: 60px;
     color: #fff;
 }
