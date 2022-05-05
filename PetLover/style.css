@@ -747,25 +747,138 @@ body{
     color: #c53f12;
     text-decoration:underline ;
 }
-
+.footer__container{
+    /* border: 1px solid red; */
+    height: 400px;
+    background: #181818;
+    margin-top: -45px;
+}
 .footer__items{
     display: flex;
     justify-content: space-evenly;
 }
-.footer__container{
-    border: 1px solid red;
-    height: 800px;
-}
+
 .footer__items{
     margin-top: 48px;
 }
 
 .footer__item{
-    border:  1px solid red;
+    /* border:  1px solid red; */
     width: 50%;
     height: 350px;
 }
 .summary{
-    width: 66%;
+    width: 72%;
     padding: 36px;
+}
+.summary h2{
+    font-size: 2.5rem;
+    color: #ED6436;
+}
+.summary h2 span{
+    color: #fff;
+}
+.summary p{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: -20px;
+}
+.contact-info{
+    text-align: left;
+    width: 44%;
+}
+.footer__item h3{
+    color: #ED6436;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-left: 40px;
+    margin-bottom: 0;
+    margin-top: 62px;
+}
+.basic__contact-info,.social__contact-info{
+    list-style: none;
+    color: #fff;
+}
+.basic__contact-info li{
+    font-size: 1rem;
+    line-height: 2.5;
+}
+
+.basic__contact-info li i{
+    margin-right: 8px;
+}
+.social__contact-info{
+    display: flex;
+}
+.social__contact-info li{
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 11px;
+    width: 17px;
+    height: 17px;
+}
+.social__contact-info li:hover{
+    background: #fff;
+    color: #181818;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.links{
+    width: 38%;
+}
+.popular__links li{
+    list-style: none;
+    color:#fff;
+}
+.popular__links li i{
+    margin-right: 8px;
+}
+.popular__links li a{
+    font-size: 1rem;
+    color:#fff;
+    line-height: 2.2;
+    text-decoration: none;
+}
+.popular__links li a:hover{
+    text-decoration: underline;
+}
+.final__submit{
+    width: 57%;
+}
+.form{
+    margin-top: 24px;
+    margin-left: 42px;
+}
+#name,#email{
+    width: 78%;
+    height: 33px;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding-left: 16px;
+}
+#submit{
+    width: 84%;
+    height: 50px;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    background: #ED6436;
+    color: #fff;
+}
+#submit:hover{
+    background:#f54e16;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.main__footer{
+    display: flex;
+    justify-content: space-between;
+}
+.content1{
+    border: 1px solid red;
+}
+.content1 h4{
+    display: inline-block;
 }
