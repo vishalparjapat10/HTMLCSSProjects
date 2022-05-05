@@ -334,10 +334,8 @@ body{
 }
 
 .feature__block{
-  
     text-align: center;
-    height: 500px;
-    margin-top: 30px;
+    height: 428px;
 }
 
 .feature__image,.feature{
@@ -875,10 +873,41 @@ body{
 .main__footer{
     display: flex;
     justify-content: space-between;
+    background: #111111;
 }
 .content1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-left: 56px;
+    color: #fff;
+}
+.content1 i{
+    font-size: 0.9rem;
 }
 .content1 h4{
     display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.content1 h4 a{
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.content1 h4 a:hover{
+    text-decoration: underline;
+}
+.content2{
+    /* border:1px solid red; */
+    margin-right: 60px;
+    color: #fff;
+}
+.content2 ul{
+    display: flex;
+    list-style: none;
+}
+.content2 ul li{
+    margin-right: 32px;
+}
+.content2 ul li:hover{
+    cursor: pointer;
 }
