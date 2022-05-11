@@ -1,4 +1,4 @@
-@charset "UTF-8";@import url(https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap);
+
 *{
     box-sizing: border-box;
 }
@@ -6,10 +6,10 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: Oswald,sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .main__background-image{
     background-image:url('./images/carousel-1.jpg') ;
@@ -69,7 +69,6 @@ h1,h2,h3,h4,h5,h6{
     color: #e31c25;
 }
 .main__headings{
-    /* border: 1px solid blue; */
     position: relative;
     bottom: 650px;
     text-align: center;
@@ -85,7 +84,7 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
     margin-top: 0;
 }
-.main__headings button{
+.joinus-btn{
     width: 15%;
     height: 74px;
     margin-top: -30px;
@@ -95,10 +94,63 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
     border: 2px solid #fff;
 }
-.main__headings button:hover{
+.joinus-btn:hover{
     cursor: pointer;
     color: #212529;
     background: #fff;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
+
+.building-type-cont{
+    display: flex;
+    height: 452px;
+    position: relative;
+    bottom: 32rem;
+    width: 77%;
+    left: 12rem;
+}
+.building-type{
+    width: 48%;
+}
+.body__building{
+    text-align: right;
+    padding-left: 16px;
+    padding-right: 38px;
+    background-color: #e31c25;
+}
+.muscle__building{
+    text-align: left;
+    padding-right: 16px;
+    padding-left: 38px;
+    background-color: #111;
+}
+.building-type h1{
+    color: #fff;
+    font-size: 3.5rem;
+    margin-top: 72px;
+}
+
+.building-type p{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.join-btn{
+    width: 28%;
+    height: 52px;
+    margin-top: 28px;
+    font-size: 1.25rem;
+    font-family: Montserrat,sans-serif;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.join-btn:hover{
+    cursor: pointer;
+    color: #212529;
+    background: #fff;
+    transition-duration: 0.3s;
+}
+
 
