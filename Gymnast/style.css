@@ -159,8 +159,7 @@ h1,h2,h3,h4,h5,h6{
     position: relative;
     width: 74.5%;
     bottom: 400px;
-    height: 530px;
-    border: 2px solid red;
+    height: 560px;
 }
 .about-image{
     height: 100%;
@@ -170,15 +169,53 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .about-desc{
-    padding-left: 20px;
+    padding-left: 24px;
 }
 .about-desc h1{
     font-size: 3.5rem;
     font-weight: 700;
     color: #343a40;
+    margin-bottom: 17px;
+}
+.about-desc p{
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    font-weight: 50;
 }
 .achievements{
     display: flex;
+    margin-top: 32px;
 }
-
+.fa-solid{
+    font-size: 5rem;
+    margin-left: 2px;
+    color: #e31c25;
+}
+.achievement{
+    width: 40%;
+}
+.certificate{
+    margin-right: 70px;
+}
+.achievement h2{
+    font-size: 1.5rem;
+    color: #343a40;
+}
+.about-desc button{
+    width: 30%;
+    height: 55px;
+    margin-top: 22px;
+    font-size: 1.25rem;
+    color: #e31c25;
+    border-color:#e31c25 ;
+    cursor: pointer;
+    background: #fff;
+    outline: none;
+}
+.about-desc button:hover{
+    background:#e31c25;
+    color: #fff;
+    transition-duration: 0.3s;
+}
 
