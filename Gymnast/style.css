@@ -218,4 +218,46 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
     transition-duration: 0.4s;
 }
+.benefits-cont{
+    display: flex;
+    height: 300px;
+    position: relative;
+    bottom: 306px;
+}
+.benefit{
+    display: flex;
+    height: 100%;
+    background: #111;
+}
+.benefit-icon{
+    font-size: 4.5rem;
+    color: #e31c25;
+    position: relative;
+    top: 35%;
+    left: 48px;
+}
+.fa-dumbbell{
+    color: #111;
+}
+.benefit-desc{
+    margin-left: 60px;
+    position: relative;
+    top: 22%;
+    padding-left: 12px;
+    padding-right: 38px;
+    width: 72%;
+}
+.benefit-desc h1{
+    font-size: 2rem;
+    color: #fff;
+}
+.benefit-desc p{
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 100;
+}
+.workout{
+    background: #e31c25;
+}
+
 
