@@ -216,6 +216,6 @@ h1,h2,h3,h4,h5,h6{
 .about-desc button:hover{
     background:#e31c25;
     color: #fff;
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
 }
 
