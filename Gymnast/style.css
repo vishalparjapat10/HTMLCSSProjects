@@ -187,13 +187,13 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     margin-top: 32px;
 }
-.fa-solid{
+.achievement{
+    width: 40%;
+}
+.achievement i{
     font-size: 5rem;
     margin-left: 2px;
     color: #e31c25;
-}
-.achievement{
-    width: 40%;
 }
 .certificate{
     margin-right: 70px;
@@ -258,6 +258,68 @@ h1,h2,h3,h4,h5,h6{
 }
 .workout{
     background: #e31c25;
+}
+
+.services-cont{
+    position: relative;
+    bottom: 15rem;
+    height: 1000px;
+}
+.services-cont__headings{
+    text-align: center;
+}
+.services-cont__headings h3{
+    color: #e31c25;
+    font-size: 1.5rem;
+}
+.services-cont__headings h1{
+    font-size: 3.5rem;
+    color: #343a40;
+    margin-top: -26px;
+}
+.services{
+    height: 418px;
+    width: 72%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.service{
+    width: 50%;
+    height: 192px;
+    display: flex;
+}
+
+.img-icon-cont{
+    width: 134%;
+    height: 156px;
+}
+.img-icon-cont img{
+    width: 100%;
+    height: 100%;
+}
+.service-desc{
+    margin-top: -15px;
+    margin-left: 28px;
+}
+.service-desc h2{
+    color: #343a40;
+}
+.service-desc p{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+    margin-top: -16px;
+}
+
+.service__icon{
+    position: relative;
+    bottom: 178px;
+    left: 141px;
+    font-size: 2.7rem;
+    padding: 12px;
+    color: white;
+    background-color: #e31c25;
 }
 
 
