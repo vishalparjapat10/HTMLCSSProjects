@@ -321,5 +321,64 @@ h1,h2,h3,h4,h5,h6{
     color: white;
     background-color: #e31c25;
 }
+.subscribe-cont{
+    position: relative;
+    height:30rem;
+    bottom: 38rem;
+}
+.subscribe-cont img{
+    height: 133%;
+    position: absolute;
+    width: 100%;
+    clip: rect(-0.5rem,95rem,23rem,0rem);
+    filter: brightness(20%);
+}
+.subscribe-cont-desc{
+    position: relative;
+    height: 50%;
+    text-align: center;
+    top: 86px;
+}
 
+.subscribe-cont-desc h1{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.subscribe-cont-desc p{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 9px;
+    margin-bottom: 31px;
+}
+.subscribe-cont-desc input{
+    position: relative;
+    font-size: 1.3rem;
+    height: 50px;
+    width: 19.5rem;
+    left: 1.2rem;
+    outline: none;
+    padding-left: 16px;
+}
+
+.subscribe-cont-desc button{
+    background-color:#e31c25;
+    position: relative;
+    font-size: 1.1rem;
+    height: 50px;
+    width: 6.8rem;
+    left: 0.9rem;
+    color: #fff;
+    top: -1px;
+    outline: none;
+    border: none;
+}
+
+.subscribe-cont-desc button:hover{
+    background-color: #c1181f;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
 
